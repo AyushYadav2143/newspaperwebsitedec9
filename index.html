@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rastrya Raj - Newspaper</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Rastrya Raj</h1>
+        <p class="fade-in">Your source for the latest news</p>
+        <div id="clock" class="clock"></div>
+    </header>
+    
+    <nav class="bg-gray-800 text-white text-center p-4 overflow-hidden">
+        <div class="whitespace-nowrap animate-marquee">
+            <h2 class="text-lg font-semibold">Breaking News: Major event happening now! &nbsp; &nbsp; Breaking News: Major event happening now!</h2>
+        </div>
+    </nav>
+
+    <div class="container">
+        <main>
+            <section class="headline">
+                <div class="slideshow-container">
+                    <!-- Images will be dynamically added here -->
+                </div>
+                <p id="caption" class="text-center text-lg text-gray-600 mt-2"></p> <!-- Caption paragraph -->
+            </section>
+
+            <section class="news-columns">
+                <article>
+                    <h3>Local News</h3>
+                    
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </a>
+                </article>
+                <article>
+                    <h3>International News</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </article>
+                <article>
+                    <h3>Sports Update</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </article>
+            </section>
+
+            <section class="trust-section text-center my-4">
+                <h2>Trusted by Over <span id="trust-count">1,000,000</span> Readers</h2>
+                <p>Join the community of readers who rely on Rastrya Raj for the latest news and updates.</p>
+            </section>
+
+            <!-- Download Button Section -->
+            <div class="download-section text-center my-4">
+                <a href="todays_newspaper.pdf" class="download-button" download>Download Today's Newspaper (PDF)</a>
+            </div>
+
+            <!-- Weather Section -->
+            <section class="weather-section text-center my-4">
+                <h2>Today's Weather</h2>
+                <form id="weather-form">
+                    <input type="text" id="location" placeholder="Enter your postal code" required>
+                    <button type="submit">Show Weather</button>
+                </form>
+                <div id="weather-result" class="mt-4">
+                    <div class="weather-info">
+                        <img id="weather-icon" src="" alt="Weather Icon" class="weather-icon">
+                        <p id="temperature" class="temperature">-- °C</p>
+                        <p id="description" class="description">--</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact-section text-center my-4">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or feedback, feel free to reach out!</p>
+                <p><strong>Phone:</strong> +1 (234) 567-8901</p>
+                <p><strong>Email:</strong> <a href="mailto:info@rastryaraj.com">info@rastryaraj.com</a></p>
+                <p><strong>Address:</strong> 123 Main Street, Cityville, ST 12345</p>
+                <p><strong>Contact Developer:</strong> <a href="mailto:developer@rastryaraj.com">developer@rastryaraj.com</a></p>
+            </section>
+        </main>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Rastrya Raj. All rights reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
